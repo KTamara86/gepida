@@ -4,17 +4,51 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sablon</title>
+    <title>Gepida</title>
     <link rel="stylesheet" href="bootstrap.css">
     <link rel="stylesheet" href="style.css">
-
+    <link rel="icon" type="image/png" href="./favicon-32x32.png">
 </head>
+
 <body>
     
 <div class="container">
-    <h1>Sablon</h1>
+
+    <img class="logo" src="./logoGepida.png" alt="Gepida logo">
+
+    <div class="mt-4 id">
+        <p>"Az élet olyan, mint a biciklizés.<br>
+            Ha meg akarod tartani az egyensúlyt,<br>
+            mozgásban kell maradnod."</p>
+        <p><b>-Albert Einstein-</b></p>
+    </div>
+
+    <h1>Kerékpár Árlista</h1>
     
+
+    <table id="arlistaTabla" class="table table-dark table-striped table-hover">
+        <thead>
+            <tr>
+                <th>Név</th>
+                <th>Kerék</th>
+                <th>Használat</th>
+                <th>Ár</th>
+            </tr>
+        </thead>
+
+        <tbody id="arlistaTorzs">
+
+        </tbody>
+    </table>
+
+    <div class="mt-5 ab">
+        <b>Kukta Tamara</b>, <br> SZOFT-I/1-E, <br> 2023-03-11
+    </div>
 </div>
+
+
 <script src="app.js"></script>
+<script src="bootstrap.js"></script>
+
 </body>
 </html>
